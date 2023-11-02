@@ -1,0 +1,23 @@
+.searchable{
+  background-color: transparent;
+  /* background-color: rebeccapurple !important; */
+}
+.searchable .searchable__controls{
+  background-color: transparent;
+}
+
+.searchable__list{
+  background-color: rgba(53, 47, 47, 1);
+
+}
+
+.searchable__controls__arrow{
+  visibility: hidden;
+}
+
+.profit{
+  color: rgb(4, 255, 4);
+}
+.loss{
+  color:red;
+}

@@ -1,0 +1,67 @@
+body {
+	margin: auto;
+	padding: 0;
+	font-family: sans-serif;
+	background: #1a1a1a;
+}
+
+.box {
+  margin: auto;
+  margin-top: 10vh;
+  position: relative;
+  width: 50vw;
+  padding: 80px;
+  transform: translate(10%,-8%);
+  background: #262627;;
+  text-align: center
+}
+
+.box h1 {
+	color: white;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+.box input[type=text],.box input[type=number], .box input[type=date], .box input[type=email]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+  border: 2px solid #e78533;
+  border-radius: 24px;
+  padding: 14px 10px;
+  width: 240px;
+  outline: none;
+  color: white;
+  transition: 0.25s;
+}
+
+.box input[type=text]:focus, .box input[type=date]:focus,.box input[type=number]:focus, .box input[type=email]:focus {
+  width: 290px;
+  border-color: #e78533;
+}
+
+.box input[type=submit] {
+  border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+  border: 2px solid #2ecc71;
+  border-radius: 24px;
+  padding: 14px 05px;
+  width: 200px;
+  outline: none;
+  color: white;
+  transition: 0.25s;
+}
+
+.box input[type=submit]:hover {
+	background: #2ecc71;
+}
+
+.back{
+  font-size:15px;
+}
+

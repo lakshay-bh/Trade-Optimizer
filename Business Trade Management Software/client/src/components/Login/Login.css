@@ -1,0 +1,226 @@
+body {
+  left: 0;
+  margin: 0;
+  overflow: auto;
+  position: relative;
+  background-color:#1a1a1a;
+  font-family:"Century Gothic";
+  color:#fff;
+}
+
+#inputID::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: orange;
+  opacity: 1; /* Firefox */
+}
+
+.login-page {
+  left: -100%;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  text-align:center;
+}
+
+.register-page {
+  left: 100%;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  text-align:center;
+}
+
+input[type=text] {
+  border:1px solid #e78533;
+  line-height:30px;
+  font-size:18px;
+  width:50%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:10px;
+  text-align:left;
+  padding-left:7px;
+  background-color:rgba(250,250,250,0.2);
+  font-family:"Century Gothic";
+  color:#fff;
+  outline: none;
+}
+input[type=tel] {
+  border:1px solid #e78533;
+  line-height:30px;
+  font-size:18px;
+  width:50%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:10px;
+  text-align:left;
+  padding-left:7px;
+  background-color:rgba(250,250,250,0.2);
+  font-family:"Century Gothic";
+  color:#fff;
+  outline: none;
+}
+input[type=password] {
+  border:1px solid #e78533;
+  line-height:30px;
+  font-size:18px;
+  width:50%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:10px;
+  text-align:left;
+  padding-left:7px;
+  background-color:rgba(250,250,250,0.2);
+  font-family:"Century Gothic";
+  color:#fff;
+  outline: none;
+}
+input[type=email] {
+  border:1px solid #e78533;
+  line-height:30px;
+  font-size:18px;
+  width:50%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:10px;
+  text-align:left;
+  padding-left:7px;
+  background-color:rgba(250,250,250,0.2);
+  font-family:"Century Gothic";
+  color:#fff;
+  outline: none;
+}
+
+input[type=submit] {
+  border:none;
+  text-decoration:none;
+  cursor:pointer;
+  background-color:#e78533;
+  line-height:30px;
+  font-size:18px;
+  width:20%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:25px;
+  border-radius:5px;
+  box-shadow: 2px 2px 2px 1px rgba(70,50,56,0.2);
+  font-family:"Century Gothic";
+  color:#fff;
+  outline: none;
+}
+
+.info {
+  width:50%;
+  margin-left:auto;
+  margin-right:auto;
+  padding-top:-webkit-calc(500px*1/3 - 24px);
+}
+
+.intro {
+  color:white;
+  font-size:48px;
+  text-align:center;
+  padding-top:-webkit-calc(500px*1/3 - 24px);
+}
+
+.button2 {
+  margin-top:5%;
+  padding-bottom:-webkit-calc(500px*1/3 + 50px);
+}
+
+#login, #register {
+  width:10%;
+  color:white;
+  border:2px solid #e78533;
+  line-height:2.5em;
+  font-size:1.4em;
+  text-align:center;
+  transition:0.3s ease;
+}
+
+#login {
+  float:left;
+  margin-right:20px;
+  margin-left:-webkit-calc(99.99%*1/2 - 10% - 40px);
+  
+}
+
+#register {
+  float:left;
+}
+
+#login:hover{
+   background-color:rgba(250,250,250,0.2); 
+  transition:0.3s ease;
+  cursor:hand;
+  cursor:pointer;
+}
+
+#register:hover{
+   background-color:rgba(250,250,250,0.2); 
+  transition:0.3s ease;
+  cursor:hand;
+  cursor:pointer;
+}
+
+.arrow {
+  position:absolute;
+  color:#fff;
+  font-size:3em;
+  transition:0.3s ease;
+}
+
+.arrow:hover {
+  transition:0.3s ease;
+  color:#e78533;
+  cursor:hand;
+  cursor:pointer;
+}
+
+.arrow.left {
+  top:180px;
+  left:5%;
+}
+
+.arrow.right {
+  top:180px;
+  right:5%;
+}
+
+h1 {
+  text-align:center;
+  margin-top:60px;
+}
+
+.icon-container {
+  width:50%;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:#ccc;
+  border-radius:5px;
+  padding-top:1em;
+  padding-bottom:1em;
+}
+
+
+
+
+
+h2 {
+  color:#fff;
+  position:absolute;
+  left:0;
+  bottom:28%;
+  width:100%;
+  background-color:rgba(0,0,0,0.5);
+  text-align:center;
+  line-height:2em;
+  font-family:"Trebuchet MS",sans-serif;
+  transition:0.3s ease;
+}
+
+h2:hover {
+  background-color:rgba(0,0,0,0.9);
+  transition:0.3s ease;
+  cursor:pointer;
+  cursor:hand;
+}
